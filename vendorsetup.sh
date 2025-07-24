@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2022 The OrangeFox Recovery Project
+# Copyright (C) 2022-2025 The OrangeFox Recovery Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,12 +14,13 @@
 # limitations under the License.
 #
 	export FDEVICE="avicii"
+	export FOX_BUILD_DEVICE="avicii"
    	export TW_DEFAULT_LANGUAGE="en"
 	export LC_ALL="C"
 	export FOX_DEVICE="avicii"
 	export OF_AB_DEVICE_WITH_RECOVERY_PARTITION=1
  	export ALLOW_MISSING_DEPENDENCIES=true
-	export OF_AB_DEVICE=1
+	export FOX_AB_DEVICE=1
 	export TARGET_DEVICE_ALT="Nord,oneplusnord,OnePlusNord,OneplusNord,OnePlusnord,Oneplusnord,nord,AC2001,AC2003,OnePlus Nord"
 	export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
 	export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
@@ -48,7 +49,7 @@
 	export FOX_USE_SED_BINARY=1
 	export FOX_USE_XZ_UTILS=1
 	export OF_ENABLE_LPTOOLS=1
-    	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1601559499"
+	export FOX_BUGGED_AOSP_ARB_WORKAROUND="1601559499"
     	export FOX_ENABLE_APP_MANAGER=1
     	export FOX_USE_NANO_EDITOR=1
     	
@@ -75,6 +76,6 @@
 	export OF_ALLOW_DISABLE_NAVBAR=0
 	export OF_CLOCK_POS=1
 	
-	# R11.1 Settings
-	export FOX_VERSION="R11.1_4"
-	export OF_MAINTAINER="Sreeshankar K"	  
+	# R11.3 Settings
+	export FOX_MAINTAINER_PATCH_VERSION="1"
+	export OF_MAINTAINER="Sreeshankar K"
