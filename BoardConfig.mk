@@ -1,6 +1,6 @@
 #
 # Copyright (C) 2022-2025 The Android Open Source Project
-# Copyright (C) 2022-2025 OrangeFox Recovery Project
+# Copyright (C) 2022-2025 TeamWin Recovery Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -200,9 +200,6 @@ TW_RECOVERY_ADDITIONAL_RELINK_LIBRARY_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
     $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so 
     
-# OrangeFox Specific Build Flags
-FOX_USE_SPECIFIC_MAGISK_ZIP := $(DEVICE_PATH)/magisk/Magisk-v29.0.zip
-OF_FL_PATH1 := sys/class/leds/led:torch_0
 
 # TWRP Debug Flags
 TARGET_USES_LOGD := true
